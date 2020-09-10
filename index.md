@@ -15,6 +15,12 @@ To ask Stan-related questions, please go to [the Stan forum](https://discourse.m
 
 ## Tutorials and case studies
 
+- http://haines-lab.com/post/thinking-generatively-why-do-we-use-atheoretical-statistical-models-to-test-substantive-psychological-theories/
+- http://haines-lab.com/post/2020-06-13-on-curbing-your-measurement-error/
+- https://github.com/CCS-Lab/IGT
+- https://github.com/CCS-Lab/hBayesDM
+- https://github.com/CCS-Lab/Haines_2020_CPS
+- https://github.com/Nathaniel-Hain
 
 
 ## Cognitive science papers
