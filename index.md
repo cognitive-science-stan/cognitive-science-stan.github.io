@@ -8,6 +8,11 @@ Anyone can contribute helpful resources related to cognitive science that makes 
 To ask Stan-related questions, please go to [the Stan forum](https://discourse.mc-stan.org/). More specifically, you can use the 
 [cognitive-science](https://discourse.mc-stan.org/tag/cognitive-science) tag to ensure that posts are seen by anyone interested in cognitive science as well.
 
+## Books
+
+[Bayesian Cognitive Modeling: A Practical Course (2014) by Michael Lee and Eric-Jan Wagenmakers.](https://bayesmodels.com/) [Stan code available](https://github.com/stan-dev/example-models/tree/master/Bayesian_Cognitive_Modeling)
+[Statistical rethinking: A Bayesian course with examples in R and Stan (2020) by Richard McElreath](https://xcelab.net/rm/statistical-rethinking/)
+
 ## Tutorials and case studies
 
 
