@@ -1,1 +1,1 @@
-# cognitive-science-stan.github.io
+# Cognitive Science using Stan
