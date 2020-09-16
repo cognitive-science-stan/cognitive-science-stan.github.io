@@ -38,7 +38,7 @@ RefManageR:::print.BibEntry(tutorials)
 ## Tutorial papers  
  
 ```{r, results="asis"}
-keys <- c("burkner2020modelling","NicenboimVasishth2016llcII")
+keys <- c("burkner2020modelling","NicenboimVasishth2016llcII", "Nalborczyk2019")
 bib <- ReadBib("allpubs.bib", check = FALSE)
 t_papers <- RefManageR::SearchBib(bib, title="Tutorial", .opts =list(use.regex = TRUE, ignore.case=TRUE)) %>%
   c(bib[keys])
