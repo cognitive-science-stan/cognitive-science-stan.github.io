@@ -14,12 +14,13 @@ source("utils.R")
 ```{r}
 bib <- ReadBib("allpubs.bib", check = FALSE)
 BibOptions(check.entries = FALSE, style = "html", cite.style = "authortitle",
-           bib.style = "authoryear",max.names =10,dashed=FALSE)
+           bib.style = "authortitle",max.names =10,dashed=FALSE)
 ```
 
 ## Papers using Stan (or brms, rstanarm)
 
-```{r articles-pub, results="asis"}
+```{r articles-pub, results="asis",eval = FALSE}
+#hack to show the customb field, but then the order is not alphabetical
 last_year <- max(as.numeric(bib$year), na.rm = TRUE)
 first_year <- min(as.numeric(bib$year), na.rm = TRUE)  
 for(y in seq(last_year,first_year,-1)){
@@ -27,6 +28,18 @@ for(y in seq(last_year,first_year,-1)){
     if(length(papers)!=0){    
         cat(paste0(" \n <h3> ",as.character(y),"\n </h3>" ))
         output(papers)
+    }
+}    
+```
+
+```{r,  results="asis"}
+last_year <- max(as.numeric(bib$year), na.rm = TRUE)
+first_year <- min(as.numeric(bib$year), na.rm = TRUE)  
+for(y in seq(last_year,first_year,-1)){
+    papers <- bib[list(year=as.character(y))]
+    if(length(papers)!=0){    
+        cat(paste0(" \n <h3> ",as.character(y),"\n </h3>" ))
+       RefManageR:::print.BibEntry(bib)
     }
 }    
 ```
