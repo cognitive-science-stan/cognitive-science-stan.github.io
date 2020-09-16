@@ -12,7 +12,7 @@ library(dplyr)
 source("utils.R")
 ```
 ```{r}
-bib <- ReadBib("allpubs.bib", check = FALSE)
+bib <- ReadBib("allpubs.bib")
 BibOptions(check.entries = FALSE, style = "html", cite.style = "authortitle",
            bib.style = "authortitle",max.names =10,dashed=FALSE)
 ```
@@ -36,10 +36,10 @@ for(y in seq(last_year,first_year,-1)){
 last_year <- max(as.numeric(bib$year), na.rm = TRUE)
 first_year <- min(as.numeric(bib$year), na.rm = TRUE)  
 for(y in seq(last_year,first_year,-1)){
-    papers <- bib[list(year=as.character(y))]
+    papers <- bib[year=as.character(y)]
     if(length(papers)!=0){    
         cat(paste0(" \n <h3> ",as.character(y),"\n </h3>" ))
-       RefManageR:::print.BibEntry(bib)
+        RefManageR:::print.BibEntry(papers,.opts =list(no.print.fields ="month"))
     }
 }    
 ```
