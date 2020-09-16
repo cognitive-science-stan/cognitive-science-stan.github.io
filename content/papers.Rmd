@@ -39,7 +39,8 @@ for(y in seq(last_year,first_year,-1)){
     papers <- bib[year=as.character(y)]
     if(length(papers)!=0){    
         cat(paste0(" \n <h3> ",as.character(y),"\n </h3>" ))
-        RefManageR:::print.BibEntry(papers,.opts =list(no.print.fields ="month"))
-    }
+        RefManageR:::print.BibEntry(papers,
+                                    .opts =list(no.print.fields ="month"))
+    } 
 }    
 ```
