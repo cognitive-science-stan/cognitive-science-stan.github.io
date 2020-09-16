@@ -1,3 +1,3 @@
 # Cognitive Science using Stan
 
-cognitive-science-stan.github.io
+Visit the website at [cognitive-science-stan.github.io](cognitive-science-stan.github.io).
