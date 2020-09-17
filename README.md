@@ -4,7 +4,7 @@ Visit the website at [cognitive-science-stan.github.io](https://cognitive-scienc
 
 ## How to contribute?
 
-A simple way to contribute is by adding papers, tutorials, or books.
+1. A simple way to contribute is by adding papers, tutorials, or books.
 
 - If you have a paper (ideally with data and code available so that others can learn from it), just add it in [bib(la)tex format](https://en.wikipedia.org/wiki/BibTeX) to [allpubs.bib](content/allpubs.bib). The field `customb` should point to the data/code.
 
@@ -12,5 +12,7 @@ A simple way to contribute is by adding papers, tutorials, or books.
 
 You can do all this, directly from github, and github will take care of doing a "pull request".
 
-If you think that this website should include something else, feel free to open an issue or do a pull request.
+2. You can take a look at the issues and try to solve some.
+
+3. If you think that this website should include something else, feel free to open an issue or do a pull request.
 
