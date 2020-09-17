@@ -22,4 +22,4 @@ For a list of cognitive science papers (including conference proceedings) using 
 
 
 ## We need your help!
-If you're working in cognitive science and want to help to maintain this page, please send an email to <b.nicenboim@tilburguniversity.edu> to be added to the Github repo.
+If you want to contribute with papers or issues, check the [README.md file](https://github.com/cognitive-science-stan/cognitive-science-stan.github.io/blob/master/README.md) of the [github repo](https://github.com/cognitive-science-stan/cognitive-science-stan.github.io/). If you want to help to maintain this page, please send an email to <b.nicenboim@tilburguniversity.edu> to be added repo. 
