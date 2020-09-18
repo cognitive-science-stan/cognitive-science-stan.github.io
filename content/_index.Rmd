@@ -11,6 +11,10 @@ Anyone can contribute helpful resources related to cognitive science that makes 
 To ask Stan-related questions, please go to [the Stan forum](https://discourse.mc-stan.org/). More specifically, you can use the 
 [cognitive-science](https://discourse.mc-stan.org/tag/cognitive-science) tag to ensure that posts are seen by anyone interested in cognitive science as well.
 
+## Events
+
+[The Fifth Summer School in Statistical Methods for Linguistics and Psychology](https://vasishth.github.io/smlp2021/), Sept 6-10 2021
+
 ## Books and tutorials
 
 For a list of books and tutorials using Stan in cognitive science, see [here](https://cognitive-science-stan.github.io/books-tutorials). 
