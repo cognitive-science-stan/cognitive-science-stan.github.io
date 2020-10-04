@@ -17,6 +17,7 @@ BibOptions(check.entries = FALSE, style = "html", cite.style = "authortitle",
            bib.style = "authortitle",max.names =10,dashed=FALSE)
 ```
 
+
 ## Papers using Stan (or brms, rstanarm)
 
 ```{r articles-pub, results="asis",eval = FALSE}
