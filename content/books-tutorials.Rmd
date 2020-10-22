@@ -29,6 +29,12 @@ BibOptions(check.entries = FALSE, style = "html", cite.style = "authortitle",
 [An Introduction to Bayesian Data Analysis for Cognitive Science (in progress) by Bruno Nicenboim, Daniel Schad, and Shravan Vasishth](https://vasishth.github.io/bayescogsci/)
 
 
+## Courses Handouts
+
+[Mark Lai's course handouts for PSYC 621 class](https://bookdown.org/marklhc/notes_bookdown/)
+
+[Lei Zhang's BayesCog_v0.2 workshop on Bayesian statistics and cognitive modeling](https://github.com/lei-zhang/BayesCog_v0.2)
+
 ## Online tutorials and case studies
 
     ```{r tutorials-pub, results="asis"}
