@@ -2,3 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
+/content/.auctex-auto
+/docs/.auctex-auto
+.dir.locals
