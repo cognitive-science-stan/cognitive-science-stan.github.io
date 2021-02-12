@@ -1,0 +1,51 @@
+on:
+  push:
+     branches:
+       - master
+
+
+
+name: deployblog
+
+jobs:
+  blogdown:
+    name: Render-Blog
+    runs-on: macOS-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: r-lib/actions/setup-r@v1
+      - uses: r-lib/actions/setup-pandoc@v1
+      - name: Install rmarkdown
+        run: Rscript -e 'install.packages(c("rmarkdown","blogdown"))'
+      - name: install hugo
+        run: Rscript -e 'blogdown::install_hugo()'
+      - name: Render blog
+        run: Rscript -e 'blogdown::build_site()'
+      - uses: actions/upload-artifact@v1
+        with:
+          name: docs
+          path: docs/
+
+# Need to first create an empty gh-pages branch
+# see https://pkgdown.r-lib.org/reference/deploy_site_github.html
+# and also add secrets for a GH_PAT and EMAIL to the repository
+# gh-action from Cecilapp/GitHub-Pages-deploy
+  checkout-and-deploy:
+   runs-on: ubuntu-latest
+   needs: blogdown
+   steps:
+     - name: Checkout
+       uses: actions/checkout@master
+     - name: Download artifact
+       uses: actions/download-artifact@v1.0.0
+       with:
+         # Artifact name
+         name: docs # optional
+         # Destination path
+         path: docs # optional
+     - name: Deploy to GitHub Pages
+       uses: Cecilapp/GitHub-Pages-deploy@master
+       env:
+          EMAIL: ${{ secrets.EMAIL }}               # must be a verified email
+          GH_TOKEN: ${{ secrets.GH_PAT }} # https://github.com/settings/tokens
+          BUILD_DIR: docs/                     # "_site/" by default
