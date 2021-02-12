@@ -12,6 +12,8 @@ Visit the website at [cognitive-science-stan.github.io](https://cognitive-scienc
 
 You can do all this, directly from github, and github will take care of doing a "pull request".
 
+(If you want to make my life easier, you can clone the repo and after updating the file allpubs.bib, you can run in r `blogdown::build_site()`)
+
 2. You can take a look at the issues and try to solve some.
 
 3. If you think that this website should include something else, feel free to open an [issue](/issues) or do a pull request.
