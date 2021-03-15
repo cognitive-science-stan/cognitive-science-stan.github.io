@@ -1,0 +1,52 @@
+---
+title: "Books and tutorials using Stan"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE)
+```
+
+
+```{r}
+library(RefManageR)
+library(dplyr)
+source("utils.R")
+```
+```{r}
+tutorials <- ReadBib("tutorials.bib", check = FALSE)
+BibOptions(check.entries = FALSE, style = "html", cite.style = "authortitle",
+           bib.style = "authortitle",max.names =10,dashed=FALSE)
+```
+
+## Books
+
+[Bayesian Cognitive Modeling: A Practical Course (2014) by Michael Lee and Eric-Jan Wagenmakers.](https://bayesmodels.com/) [Stan code available](https://github.com/stan-dev/example-models/tree/master/Bayesian_Cognitive_Modeling)
+
+[Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan  (2014) by John Kruschke](https://sites.google.com/site/doingbayesiandataanalysis/)
+
+[Statistical rethinking: A Bayesian course with examples in R and Stan (2020) by Richard McElreath](https://xcelab.net/rm/statistical-rethinking/)
+
+[An Introduction to Bayesian Data Analysis for Cognitive Science (in progress) by Bruno Nicenboim, Daniel Schad, and Shravan Vasishth](https://vasishth.github.io/bayescogsci/)
+
+
+## Courses Handouts
+
+[Mark Lai's course handouts for PSYC 621 class](https://bookdown.org/marklhc/notes_bookdown/)
+
+[Lei Zhang's BayesCog_v0.2 workshop on Bayesian statistics and cognitive modeling](https://github.com/lei-zhang/BayesCog_v0.2)
+
+## Online tutorials and case studies
+
+```{r tutorials-pub, results="asis"}
+RefManageR:::print.BibEntry(tutorials)
+```
+  
+## Tutorial papers  
+ 
+```{r, results="asis"}
+keys <- c("burkner2020modelling","NicenboimVasishth2016llcII", "Nalborczyk2019")
+bib <- ReadBib("allpubs.bib", check = FALSE)
+t_papers <- RefManageR::SearchBib(bib, title="Tutorial", .opts =list(use.regex = TRUE, ignore.case=TRUE)) %>%
+  c(bib[keys])
+RefManageR:::print.BibEntry(t_papers)
+```
