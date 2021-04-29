@@ -25,7 +25,18 @@ An Introduction to Bayesian Data Analysis for Cognitive Science (in progress) by
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/papers/</guid>
-      <description>## Warning in bibtex::do_read_bib(file, encoding = .Encoding, srcfile): ## allpubs.bib:835:0 ## syntax error, unexpected TOKEN_ABBREV, expecting TOKEN_COMMA or TOKEN_RBRACE ## Dropping the entry `abir2020getting` (starting at line 827) Papers using Stan (or brms, rstanarm)  2021   Brochhagen, T. “Brief at the Risk of Being Misunderstood: Consolidating Population- and Individual-Level Tendencies”. In: Computational Brain &amp;amp; Behavior (2021). DOI: 10.1007/s42113-021-00099-x.  2020   Avetisyan, S., S. Lago, and S.</description>
+      <description>Papers using Stan (or brms, rstanarm)  2021   Brochhagen, T. “Brief at the Risk of Being Misunderstood: Consolidating Population- and Individual-Level Tendencies”. In: Computational Brain &amp;amp; Behavior (2021). DOI: 10.1007/s42113-021-00099-x.  2020   Abir, Y. and R. R. Hassin. “Getting to the heart of it: Multi-method exploration of nonconscious prioritization processes”. In: Consciousness and Cognition 85 (2020), p. 103005.  Avetisyan, S., S. Lago, and S. Vasishth.</description>
+    </item>
+    
+    <item>
+      <title>StanConnect 2021 - Cognitive Science and Neuroscience session</title>
+      <link>/stanconnect2021-cogsci/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/stanconnect2021-cogsci/</guid>
+      <description>When: November 19, 2021 5:00 pm CET (e.g., Amsterdam) / 11:00 am ET (e.g., New York)
+ Talks Resolving the multiple testing issue in neuroimaging through Bayesian multilevel modeling Gang Chen
+ Two intertwining aspects of information loss are involved in conventional neuroimaging data analysis. First, through massively univariate analysis in which the same model is simultaneously applied to all spatial units (e.g., voxels, regions, matrix elements, DTI tracks), multiple testing adjustment is typically adopted to compensate for multiplicity, but the associated thresholding reduces the continuum of statistical evidences to binary classification.</description>
     </item>
     
   </channel>

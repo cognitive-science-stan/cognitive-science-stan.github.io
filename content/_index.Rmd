@@ -13,15 +13,16 @@ To ask Stan-related questions, please go to [the Stan forum](https://discourse.m
 
 ## Events
 
-[The Fifth Summer School in Statistical Methods for Linguistics and Psychology](https://vasishth.github.io/smlp2021/), Sept 6-10 2021
+- [The Fifth Summer School in Statistical Methods for Linguistics and Psychology](https://vasishth.github.io/smlp2021/), Sept 6-10 2021
+- [StanConnect 2021 - Cognitive Science and Neuroscience session](stanconnect2021-cogsci), November 19, 2021
 
 ## Books and tutorials
 
-For a list of books and tutorials using Stan in cognitive science, see [here](https://cognitive-science-stan.github.io/books-tutorials). 
+For a list of books and tutorials using Stan in cognitive science, see [here](books-tutorials). 
 
 
 ## Cognitive science papers
-For a list of cognitive science papers (including conference proceedings) using Stan, see [here](https://cognitive-science-stan.github.io/papers). 
+For a list of cognitive science papers (including conference proceedings) using Stan, see [here](papers). 
 
 
 

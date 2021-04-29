@@ -1,0 +1,41 @@
+---
+title: "StanConnect 2021 - Cognitive Science and Neuroscience session"
+---
+
+## When: 
+
+November 19, 2021 5:00 pm CET (e.g., Amsterdam) / 11:00 am ET (e.g., New York)
+
+## Talks
+
+
+### Resolving the multiple testing issue in neuroimaging through Bayesian multilevel modeling
+Gang Chen
+
+> Two intertwining aspects of information loss are involved in conventional neuroimaging data analysis. First, through massively univariate analysis in which the same model is simultaneously applied to all spatial units (e.g., voxels, regions, matrix elements, DTI tracks), multiple testing adjustment is typically adopted to compensate for multiplicity, but the associated thresholding reduces the continuum of statistical evidences to binary classification. The severe penalty is embodied by a pursuit of rigorous controllability of false positives under the conventional framework through leveraging spatial contiguity (e.g., clusters of neighboring spatial units). The second aspect of information loss is due to an implicit and mostly unrecognized assumption that all potential effects have the same likelihood of being observed, equating to a prior of uniform distribution from −∞ to +∞ . When a bell-shaped distribution (e.g., Gaussian) more accurately characterizes data variability across space, adopting the stance of complete ignorance leads to excessively heavy penalties, inefficient modeling, poor generalizability, overfitting and compromised predictability.
+
+> A Bayesian multilevel framework can effectively resolve multiplicity, reduce information loss, and avoid artificial dichotomization. Specifically, we construct an integrative model that incorporates all spatial units into one model. Through partial pooling, information is leveraged across all spatial units, and model performance can be verified and compared through posterior predictive checks and information criteria. Unlike the conventional massively univariate approach that focuses on individual “trees” without any consideration for the forest, spatial information is regularized in Bayesian multilevel modeling through “seeing the forest for the trees”. Furthermore, multiplicity is resolved because one high-dimensional joint posterior distribution is obtained to infer various effects of interest. In addition, we emphasize full result reporting through a “highlight but not hide” approach: gradating the statistical evidence without dichotomization.
+
+### Implementation of the Diffusion Decision Model with Across-Trial Variability in the Drift Rate
+Kendal Foster and Henrik Singmann
+
+> The Ratcliff diffusion decision model (DDM) is the most prominent model for jointly modelling binary responses and associated response times. The implementation currently available in Stan only provides the four-parameter variant, the Wiener model, with non-decision time, boundary separation, drift rate, and starting point. We present a Stan implementation of the five-parameter DDM variant that additionally allows for across-trial variabilities in the drift rate. Importantly, the drift rate variability is expressed analytically and not numerically. The five parameter version is implemented in a numerically stable manner combining both “small-time” and “large-time” approximations using the methods recently introduced by Foster and Singmann (2021, http://arxiv.org/abs/2104.01902 3).
+
+### It’s complicated: Some observations on the nuanced constraints of the multivariate normal in high dimensions
+Mike Lawrence
+
+> The multivariate normal is a structure that enjoys widespread use in many more complex models, including serving as the backbone of the increasingly popular hierarchical (a.k.a. “multi-level” ) class of models. Despite it’s general flexibility in permitting possibly-correlated variates to mutually-inform and thereby improve the accuracy and precision of inference, as the dimensionality of the multivariate normal increases, an otherwise-subtle structural constraint grows in strength to a degree that the multivariate normal becomes inflexible and actively suppresses the mutual-informativity that drives its usefulness for lower-dimensional models. To elucidate this behaviour, this talk will recount the author’s experience observing it in the context of modelling data from 2-alternative speeded-choice tasks, where an inferential workflow that added increasing-but-principled complexity (including: location-scale inference for the continuous response time outcome; simultaneous inference for response times and error rates; contrast reparameterization to enable direct inference on test-retest reliability) led to final inferences that increasingly strongly contradicted both domain expertise and results from simpler models. The talk will also discuss ongoing explorations of the performance of an alternative to the multivariate normal developed during this process that seeks to maintain mutual-informativity even in high dimensions.
+
+
+### Using computational modeling parameters to measure working memory processes
+Jan Göttmann
+
+> The memory measurement model (M3; Oberauer & Lewandowsky, 2018) is a cognitive measurement model designed to isolate parameters associated with different processes in working memory. It assumes that different categories of representations in working memory get activated through distinct processes. Transforming the activation of the different item categories into their respective recall probabilities then allows to estimate the contributions of different memory processes to working memory performance.
+> So far, parameter recovery was assessed only for group level parameters of the M3. In contrast to experimental research, individual differences research relies on variation in subject parameters. The quality of parameter recovery of subject parameters has, however, not yet been investigated. To analyze parameter recovery of subject parameters of the M3, we ran a parameter recovery simulation to assess the model performance in recovering subject-level parameters dependent on different experimental conditions. In this talk, we will present the results of this parameter recovery study that used a multivariate parametrization of the model implemented in STAN using the no-u-turn sampler (Hoffman & Gelman, 2011).
+> The results of the simulation indicate that our implementation of the M3 recovers subject parameters acceptably. Based on differences between experimental conditions, we will provide recommendations for using the M3 in individual differences research. Altogether, our parameter recovery study showed that the M3 is easily scalable to different experimental paradigms with sufficient recovery performance.
+
+## Tentative schedule (times in EST) of each event: 
+
+ - 11am - 11:15am: Introduction to the Event by SGB representative, Introduction to theme by Session Chair
+ - 11:15am - 1:15pm: four 30-minute talks - 20 minute presentation + 10 minute Q&A. Chat questions moderated by Session Chair.
+ - 1:15pm - 2:00pm: Zoom Networking/Social session. Each of the three speakers will have their own breakout room. Audience members can go in and out of the rooms to chat/mingle.
