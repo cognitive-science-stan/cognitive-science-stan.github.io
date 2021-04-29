@@ -34,7 +34,7 @@ An Introduction to Bayesian Data Analysis for Cognitive Science (in progress) by
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/stanconnect2021-cogsci/</guid>
-      <description>When: November 19, 2021 5:00 pm CET (e.g., Amsterdam) / 11:00 am ET (e.g., New York)
+      <description>Online session of StanConnect 2021 November 19, 2021 5:00 pm CET (e.g., Amsterdam) / 11:00 am ET (e.g., New York)
  Talks Resolving the multiple testing issue in neuroimaging through Bayesian multilevel modeling Gang Chen
  Two intertwining aspects of information loss are involved in conventional neuroimaging data analysis. First, through massively univariate analysis in which the same model is simultaneously applied to all spatial units (e.g., voxels, regions, matrix elements, DTI tracks), multiple testing adjustment is typically adopted to compensate for multiplicity, but the associated thresholding reduces the continuum of statistical evidences to binary classification.</description>
     </item>
