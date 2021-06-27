@@ -4,9 +4,34 @@ title: "StanConnect 2021 - Cognitive Science and Neuroscience session"
 
 ## Online session of StanConnect 2021 
 
-November 19, 2021 5:00 pm CET (e.g., Amsterdam) / 11:00 am ET (e.g., New York)
+The Cognitive Science and Neuroscience session of StanConnect 2021 will happen on
+**November 19, 2021 5:00 pm CET (e.g., Amsterdam) / 11:00 am ET (e.g., New York)**. For more details about StanConnect 2021 see https://mc-stan.org/events/.
 
-## Talks
+
+## Speakers
+
+|Speaker name | Talk                              |
+|:------------|:----------------------------------|
+| Gang Chen   | Resolving the multiple testing issue in neuroimaging through Bayesian multilevel modeling |
+|Kendal Foster and Henrik Singmann | Implementation of the Diffusion Decision Model with Across-Trial Variability in the Drift Rate |
+|Mike Lawrence | It’s complicated: Some observations on the nuanced constraints of the multivariate normal in high dimensions |
+|Jan Göttmann | Using computational modeling parameters to measure working memory processes |
+
+## Tentative schedule (times in ET) of each event: 
+
+ - 11am - 11:15am: Introduction to the Event by SGB representative, Introduction to theme by Session Chair
+ - 11:15am - 1:15pm: four 30-minute talks - 20 minute presentation + 10 minute Q&A. Chat questions moderated by Session Chair.
+ - 1:15pm - 2:00pm: Zoom Networking/Social session. Each of the three speakers will have their own breakout room. Audience members can go in and out of the rooms to chat/mingle.
+
+## Organizers:
+Session Chair: Bruno Nicenboim - Tilburg University
+
+## Registration
+https://www.eventbrite.com/e/159547271183
+
+
+
+## Abstracts
 
 ### Resolving the multiple testing issue in neuroimaging through Bayesian multilevel modeling
 Gang Chen
@@ -33,8 +58,4 @@ Jan Göttmann
 > So far, parameter recovery was assessed only for group level parameters of the M3. In contrast to experimental research, individual differences research relies on variation in subject parameters. The quality of parameter recovery of subject parameters has, however, not yet been investigated. To analyze parameter recovery of subject parameters of the M3, we ran a parameter recovery simulation to assess the model performance in recovering subject-level parameters dependent on different experimental conditions. In this talk, we will present the results of this parameter recovery study that used a multivariate parametrization of the model implemented in STAN using the no-u-turn sampler (Hoffman & Gelman, 2011).
 > The results of the simulation indicate that our implementation of the M3 recovers subject parameters acceptably. Based on differences between experimental conditions, we will provide recommendations for using the M3 in individual differences research. Altogether, our parameter recovery study showed that the M3 is easily scalable to different experimental paradigms with sufficient recovery performance.
 
-## Tentative schedule (times in ET) of each event: 
 
- - 11am - 11:15am: Introduction to the Event by SGB representative, Introduction to theme by Session Chair
- - 11:15am - 1:15pm: four 30-minute talks - 20 minute presentation + 10 minute Q&A. Chat questions moderated by Session Chair.
- - 1:15pm - 2:00pm: Zoom Networking/Social session. Each of the three speakers will have their own breakout room. Audience members can go in and out of the rooms to chat/mingle.
