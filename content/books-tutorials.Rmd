@@ -40,19 +40,25 @@ BibOptions(check.entries = FALSE, style = "html", cite.style = "authortitle",
 
 ## Online tutorials and case studies
 
-```{r tutorials-pub, results="asis"}
+```{r tutorials-pub}
 tutorials_df <- as_nice_tbl(tutorials)
-datatable_papers(tutorials_df) 
+dt_tutorials<- datatable_papers(tutorials_df) 
 ```
-  
+```{r}
+widgetframe::frameWidget(dt_tutorials)
+```
+
 ## Tutorial papers  
  
-```{r, results="asis"}
+```{r}
 keys <- c("burkner2020modelling","NicenboimVasishth2016llcII", "Nalborczyk2019")
 bib <- ReadBib("allpubs.bib", check = FALSE)
 t_papers <- RefManageR::SearchBib(bib, title="Tutorial", .opts =list(use.regex = TRUE, ignore.case=TRUE)) %>%
   c(bib[keys])
 t_papers_df <- as_nice_tbl(t_papers)
-datatable_papers(t_papers_df)
+dt_tpapers <- datatable_papers(t_papers_df)
 
+```
+```{r}
+widgetframe::frameWidget(dt_tpapers)
 ```
