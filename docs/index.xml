@@ -15,8 +15,7 @@
       <description>Books Bayesian Cognitive Modeling: A Practical Course (2014) by Michael Lee and Eric-Jan Wagenmakers. Stan code available
 Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan (2014) by John Kruschke
 Statistical rethinking: A Bayesian course with examples in R and Stan (2020) by Richard McElreath
-An Introduction to Bayesian Data Analysis for Cognitive Science (in progress) by Bruno Nicenboim, Daniel Schad, and Shravan Vasishth
- Courses Handouts Mark Lai’s course handouts for PSYC 621 class</description>
+An Introduction to Bayesian Data Analysis for Cognitive Science (in progress) by Bruno Nicenboim, Daniel Schad, and Shravan Vasishth</description>
     </item>
     
     <item>
@@ -25,7 +24,7 @@ An Introduction to Bayesian Data Analysis for Cognitive Science (in progress) by
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/papers/</guid>
-      <description>Papers using Stan (or brms, rstanarm)  2021   Brochhagen, T. “Brief at the Risk of Being Misunderstood: Consolidating Population- and Individual-Level Tendencies”. In: Computational Brain &amp;amp; Behavior (2021). DOI: 10.1007/s42113-021-00099-x.  2020   Abir, Y. and R. R. Hassin. “Getting to the heart of it: Multi-method exploration of nonconscious prioritization processes”. In: Consciousness and Cognition 85 (2020), p. 103005.  Avetisyan, S., S. Lago, and S. Vasishth.</description>
+      <description>Papers using Stan (or brms, rstanarm)  {&#34;x&#34;:{&#34;filter&#34;:&#34;none&#34;,&#34;vertical&#34;:false,&#34;data&#34;:[[&#34;2021&#34;,&#34;2021&#34;,&#34;2021&#34;,&#34;2021&#34;,&#34;2020&#34;,&#34;2020&#34;,&#34;2020&#34;,&#34;2020&#34;,&#34;2020&#34;,&#34;2020&#34;,&#34;2020&#34;,&#34;2020&#34;,&#34;2020&#34;,&#34;2020&#34;,&#34;2020&#34;,&#34;2020&#34;,&#34;2020&#34;,&#34;2020&#34;,&#34;2020&#34;,&#34;2020&#34;,&#34;2020&#34;,&#34;2020&#34;,&#34;2020&#34;,&#34;2020&#34;,&#34;2020&#34;,&#34;2020&#34;,&#34;2020&#34;,&#34;2020&#34;,&#34;2020&#34;,&#34;2020&#34;,&#34;2019&#34;,&#34;2019&#34;,&#34;2019&#34;,&#34;2019&#34;,&#34;2019&#34;,&#34;2019&#34;,&#34;2019&#34;,&#34;2019&#34;,&#34;2019&#34;,&#34;2019&#34;,&#34;2019&#34;,&#34;2019&#34;,&#34;2019&#34;,&#34;2019&#34;,&#34;2018&#34;,&#34;2018&#34;,&#34;2018&#34;,&#34;2018&#34;,&#34;2018&#34;,&#34;2018&#34;,&#34;2018&#34;,&#34;2018&#34;,&#34;2018&#34;,&#34;2018&#34;,&#34;2017&#34;,&#34;2017&#34;,&#34;2017&#34;,&#34;2017&#34;,&#34;2017&#34;,&#34;2017&#34;,&#34;2016&#34;,&#34;2016&#34;,&#34;2016&#34;,&#34;2016&#34;,&#34;2016&#34;,&#34;2016&#34;,&#34;2015&#34;],[&#34;Brochhagen&#34;,&#34;Lisson, Pregla, Nicenboim, Paape, van het, Nederend, Burchert, Stadie, Caplan, Vasishth&#34;,&#34;Schad, Nicenboim, Bürkner, Betancourt, Vasishth&#34;,&#34;Vasishth, Yadav, Schad, Nicenboim&#34;,&#34;Abir, Hassin&#34;,&#34;Avetisyan, Lago, Vasishth&#34;,&#34;Bürki, Elbuy, Madec, Vasishth&#34;,&#34;Bürkner, Charpentier&#34;,&#34;Greene, Rhodes&#34;,&#34;Haines, Beauchaine, Galdo, Rogers, Hahn, Pitt, Myung, Turner, Ahn&#34;,&#34;Herff, Herff, Milne, Johnson, Shih, Krusienski&#34;,&#34;Ishkhanyan, Fusaroli, Højen, Tylén, Johansson, Christiansen&#34;,&#34;Jäger, Mertzen, Van Dyke, Vasishth&#34;,&#34;Kraemer, Fontanesi, Spektor, Gluth&#34;,&#34;Leuker, Samartzidis, Hertwig&#34;,&#34;Milne, Herff&#34;,&#34;Molto, Nalborczyk, Palluel-Germain, Morgado&#34;</description>
     </item>
     
     <item>

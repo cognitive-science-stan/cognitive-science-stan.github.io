@@ -8,8 +8,11 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE)
 
 
 ```{r}
+library(DT)
 library(RefManageR)
 library(dplyr)
+library(purrr)
+library(stringr) 
 source("utils.R")
 ```
 ```{r}
@@ -38,7 +41,8 @@ BibOptions(check.entries = FALSE, style = "html", cite.style = "authortitle",
 ## Online tutorials and case studies
 
 ```{r tutorials-pub, results="asis"}
-RefManageR:::print.BibEntry(tutorials)
+tutorials_df <- as_nice_tbl(tutorials)
+datatable_papers(tutorials_df) 
 ```
   
 ## Tutorial papers  
@@ -48,5 +52,7 @@ keys <- c("burkner2020modelling","NicenboimVasishth2016llcII", "Nalborczyk2019")
 bib <- ReadBib("allpubs.bib", check = FALSE)
 t_papers <- RefManageR::SearchBib(bib, title="Tutorial", .opts =list(use.regex = TRUE, ignore.case=TRUE)) %>%
   c(bib[keys])
-RefManageR:::print.BibEntry(t_papers)
+t_papers_df <- as_nice_tbl(t_papers)
+datatable_papers(t_papers_df)
+
 ```
