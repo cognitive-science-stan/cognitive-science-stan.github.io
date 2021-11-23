@@ -33,5 +33,8 @@ dt_papers <- datatable_papers(bibdf)
 ```
 
 ```{r}
-widgetframe::frameWidget(dt_papers, height = "100%")
+widgetframe::frameWidget(dt_papers,width = "110%", height = "100%")
 ```
+
+.
+

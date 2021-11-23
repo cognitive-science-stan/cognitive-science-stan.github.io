@@ -45,7 +45,7 @@ tutorials_df <- as_nice_tbl(tutorials)
 dt_tutorials<- datatable_papers(tutorials_df) 
 ```
 ```{r}
-widgetframe::frameWidget(dt_tutorials)
+widgetframe::frameWidget(dt_tutorials, width = "110%", height = "100%")
 ```
 
 ## Tutorial papers  
@@ -60,5 +60,6 @@ dt_tpapers <- datatable_papers(t_papers_df)
 
 ```
 ```{r}
-widgetframe::frameWidget(dt_tpapers)
+widgetframe::frameWidget(dt_tpapers, width = "110%", height = "100%")
 ```
+.
