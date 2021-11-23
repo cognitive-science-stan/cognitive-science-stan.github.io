@@ -2,9 +2,9 @@
 title: "StanConnect 2021 - Cognitive Science and Neuroscience session"
 ---
 
-## Online session of StanConnect 2021 
+## Online session of StanConnect 2021  
 
-The Cognitive Science and Neuroscience session of StanConnect 2021 will happen on
+The Cognitive Science and Neuroscience session of StanConnect 2021  happened on
 **November 19, 2021 5:00 pm CET (e.g., Amsterdam) / 11:00 am ET (e.g., New York)**. For more details about StanConnect 2021 see https://mc-stan.org/events/.
 
 
@@ -17,17 +17,17 @@ The Cognitive Science and Neuroscience session of StanConnect 2021 will happen o
 |Mike Lawrence | It’s complicated: Some observations on the nuanced constraints of the multivariate normal in high dimensions |
 |Jan Göttmann | Using computational modeling parameters to measure working memory processes |
 
-## Tentative schedule (times in ET) of each event: 
+<!-- ## Tentative schedule (times in ET) of each event:  -->
 
- - 11am - 11:15am: Introduction to the Event by SGB representative, Introduction to theme by Session Chair
- - 11:15am - 1:15pm: four 30-minute talks - 20 minute presentation + 10 minute Q&A. Chat questions moderated by Session Chair.
- - 1:15pm - 2:00pm: Zoom Networking/Social session. Each of the three speakers will have their own breakout room. Audience members can go in and out of the rooms to chat/mingle.
+<!--  - 11am - 11:15am: Introduction to the Event by SGB representative, Introduction to theme by Session Chair -->
+<!--  - 11:15am - 1:15pm: four 30-minute talks - 20 minute presentation + 10 minute Q&A. Chat questions moderated by Session Chair. -->
+<!--  - 1:15pm - 2:00pm: Zoom Networking/Social session. Each of the three speakers will have their own breakout room. Audience members can go in and out of the rooms to chat/mingle. -->
 
 ## Organizers:
 Session Chair: Bruno Nicenboim - Tilburg University
 
-## Registration
-https://www.eventbrite.com/e/159547271183
+<!-- ## Registration -->
+<!-- https://www.eventbrite.com/e/159547271183 -->
 
 
 

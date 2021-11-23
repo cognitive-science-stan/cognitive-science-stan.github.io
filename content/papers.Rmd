@@ -29,9 +29,9 @@ bibdf <- as_nice_tbl(bib)
 
 
 ```{r,  include= FALSE}
-dt_papers <- datatable_papers(bibdf)
+dt_papers <- datatable_papers(bibdf) 
 ```
 
 ```{r}
-widgetframe::frameWidget(dt_papers)
+widgetframe::frameWidget(dt_papers, height = "100%")
 ```
