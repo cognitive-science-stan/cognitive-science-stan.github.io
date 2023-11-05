@@ -9,6 +9,9 @@ table.dataTable,table.dataTable th,table.dataTable td {
   box-sizing: content-box;
   text-align: left !important;
 }
+table.dataTable thead .long-column {
+  min-width: 250px !important;
+}
 /* In case of scrollX/Y or FixedHeader */
 .dataTables_scrollBody .dataTables_sizing {
   visibility: hidden;
