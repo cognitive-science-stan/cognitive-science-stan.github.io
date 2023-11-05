@@ -409,7 +409,7 @@
 
             // Set some attributes to this proto-iframe.
             this.iframe.setAttribute('width', '100%');
-            this.iframe.setAttribute('scrolling', 'no');
+            this.iframe.setAttribute('scrolling', 'yes');
             this.iframe.setAttribute('marginheight', '0');
             this.iframe.setAttribute('frameborder', '0');
 
