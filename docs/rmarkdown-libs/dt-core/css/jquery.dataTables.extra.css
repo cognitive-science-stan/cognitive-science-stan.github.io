@@ -2,6 +2,9 @@
 table.dataTable tr.selected td, table.dataTable td.selected {
   background-color: #b0bed9 !important;
 }
+/* table.dataTable td {
+  padding: 8px 25px!important;
+} */
 /* In case of scrollX/Y or FixedHeader */
 .dataTables_scrollBody .dataTables_sizing {
   visibility: hidden;

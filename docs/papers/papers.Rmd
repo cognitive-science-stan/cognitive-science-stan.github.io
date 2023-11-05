@@ -1,0 +1,40 @@
+---
+title: "Papers using Stan"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, cache = FALSE)
+```
+
+```{r}
+library(DT)
+library(RefManageR)
+library(dplyr)
+library(purrr)
+library(stringr) 
+#library(htmlwidgets)
+#library(htmltools)
+
+source("utils.R")
+```
+```{r}
+bib <- ReadBib("allpubs.bib")
+BibOptions(check.entries = FALSE, style = "html", cite.style = "authortitle",
+           bib.style = "authortitle",max.names =10,dashed=FALSE)
+bibdf <- as_nice_tbl(bib) 
+```
+
+
+## Papers using Stan (or brms, rstanarm)
+
+
+```{r,  include= FALSE}
+dt_papers <- datatable_papers(bibdf) 
+```
+
+```{r}
+widgetframe::frameWidget(dt_papers,width = "110%", height = "100%")
+```
+
+.
+
